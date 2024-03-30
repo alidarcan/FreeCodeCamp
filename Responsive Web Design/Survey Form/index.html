@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This is a survey form description.</p>
+    <form action="" id="survey-form">
+        <div class="input-group">
+            <p>Your Name</p>
+            <label for="name" id="name-label"></label>
+            <input type="text" id="name" required placeholder="Your Name">
+        </div>
+
+        <div class="input-group">
+            <p>Your Email</p>
+            <label for="email" id="email-label"></label>
+            <input type="text" id="email" required placeholder="Your E-mail">
+        </div>
+
+        <div class="input-group">
+            <p>Your Age (optional)</p>
+            <label for="number" id="number-label"></label>
+            <input type="number" name="" id="number" placeholder="Your Age (optional)">
+            <!-- check7 8 9 -->
+        </div>
+
+        <div class="input-group">
+            <p>Which one do you prefer?</p>
+            <select name="role" id="dropdown">
+                <option disabled selected>Select an option.</option>
+                <option value="indoor">Indoor</option>
+                <option value="outdoor">Outdoor</option>
+            </select>
+        </div>
+
+
+        <div class="input-group">
+            <p>Which animals do you like more?</p>
+            <input type="radio" name="animal" id="cats">
+            <label for="cats">Cats</label>
+            <input type="radio" name="animal" id="dogs">
+            <label for="dogs">Dogs</label>
+        </div>
+
+        <div class="input-group">
+            <p>Which colors do you like?</p>
+            <input type="checkbox" name="color-red" id="color-red" value="Red">
+            <label for="color-red">Red</label>
+            <input type="checkbox" name="color-green" id="color-green" value="Green">
+            <label for="color-green">Green</label>
+            <input type="checkbox" name="color-blue" id="color-blue" value="Blue">
+            <label for="color-blue">Blue</label>
+            <input type="checkbox" name="color-white" id="color-white" value="White">
+            <label for="color-white">White</label>
+            <input type="checkbox" name="color-black" id="color-black" value="Black">
+            <label for="color-black">Black</label>
+        </div>
+
+        <div class="input-group">
+            <p>Do you want to share something else?</p>
+            <textarea name="textarea" id="textarea" cols="30" rows="3"></textarea>
+        </div>
+
+        <div class="input-group"><button id="submit" type="submit">Submit</button></div>
+    </form>
+</body>
+
+</html>
