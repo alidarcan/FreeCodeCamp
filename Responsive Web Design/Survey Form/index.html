@@ -13,21 +13,18 @@
     <p id="description">This is a survey form description.</p>
     <form action="" id="survey-form">
         <div class="input-group">
-            <p>Your Name</p>
-            <label for="name" id="name-label"></label>
+            <label for="name" id="name-label">Your Name</label>
             <input type="text" id="name" required placeholder="Your Name">
         </div>
 
         <div class="input-group">
-            <p>Your Email</p>
-            <label for="email" id="email-label"></label>
-            <input type="text" id="email" required placeholder="Your E-mail">
+            <label for="email" id="email-label">Your Email</label>
+            <input type="email" id="email" required placeholder="Your E-mail">
         </div>
 
         <div class="input-group">
-            <p>Your Age (optional)</p>
-            <label for="number" id="number-label"></label>
-            <input type="number" name="" id="number" placeholder="Your Age (optional)">
+            <label for="number" id="number-label">Your Age (optional)</label>
+            <input type="number" name="" id="number" placeholder="Your Age (optional)" min="1" max="100">
             <!-- check7 8 9 -->
         </div>
 
