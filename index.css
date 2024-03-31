@@ -1,0 +1,31 @@
+li {
+    list-style: none;
+}
+main {
+    margin: 2rem;
+    padding: 40px 20px 80px;
+    border-radius: 6px;
+    background-color: rgb(20, 110, 153);
+}
+main ul {
+    display: block;
+}
+
+main ul li {
+    display: block;
+    margin-bottom: 15px;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+main ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
